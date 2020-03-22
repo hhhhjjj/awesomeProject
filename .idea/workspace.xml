@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f687f-bd3b-42a8-93ba-fc899308680c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beego_proj/conf/app.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beego_proj/controllers/default.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beego_proj/go_build_awesomeProject_beego_proj.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beego_proj/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beego_proj/routers/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beego_proj/static/js/reload.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beego_proj/tests/default_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beego_proj/views/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beego_proj/controllers/HelloController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/make和new.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/make和new.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/并发.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/并发.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/指针.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/流程控制.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/流程控制.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/结构体.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/结构体.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/语言接口.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/语言接口.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/错误处理.go" beforeDir="false" afterPath="$PROJECT_DIR$/study/错误处理.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beego_proj/go_build_awesomeProject_beego_proj.exe" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/go_build_awesomeProject_beego_proj.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beego_proj/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beego_proj/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/routers/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,22 +172,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584856851835" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584857075692">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584873936377">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584857075692" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584857075692">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584873936377" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584873936377">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584857075692" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584857075692">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584873936377" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584873936377">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584857075692" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584857075692">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584873936377" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584873936377">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584857075692" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584873936377" />
     <state x="2381" y="162" key="SettingsEditor" timestamp="1584855596330">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
