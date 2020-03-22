@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f687f-bd3b-42a8-93ba-fc899308680c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/并发.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make和new.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/指针.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/流程控制.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/错误处理.go" beforeDir="false" afterPath="$PROJECT_DIR$/错误处理.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +39,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Build.go build awesomeProject (1)">
+  <component name="RunManager" selected="Go Build.go build awesomeProject (2)">
     <configuration name="go build 错误处理.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/错误处理.go" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 指针.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/指针.go" />
       <package value="awesomeProject" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -58,6 +69,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build awesomeProject (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/make和new.go" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build awesomeProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -67,21 +87,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/hello.go" />
-      <package value="awesomeProject" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build awesomeProject (2)" />
+        <item itemvalue="Go Build.go build 指针.go" />
         <item itemvalue="Go Build.go build awesomeProject (1)" />
         <item itemvalue="Go Build.go build 错误处理.go" />
         <item itemvalue="Go Build.go build awesomeProject" />
-        <item itemvalue="Go Build.go build hello.go" />
       </list>
     </recent_temporary>
   </component>
@@ -101,25 +113,33 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2588" y="154" key="#go_build_awesomeProject_(1)/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584798386584" />
+    <state x="2588" y="154" key="#go_build_awesomeProject_(2)" timestamp="1584842973627">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2588" y="154" key="#go_build_awesomeProject_(2)/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584842973627" />
     <state x="2588" y="154" key="#go_build_hello.go" timestamp="1584796155621">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2588" y="154" key="#go_build_hello.go/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584796155621" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584798458714">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584843043559">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584798458714" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584798458714">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584843043559" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584843043559">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584798458714" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584798458714">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584843043559" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584843043559">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584798458714" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584798458714">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584843043559" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584843043559">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584798458714" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584843043559" />
+    <state x="2381" y="162" key="SettingsEditor" timestamp="1584842886631">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="162" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584842886631" />
   </component>
 </project>
