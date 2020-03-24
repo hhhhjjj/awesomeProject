@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f687f-bd3b-42a8-93ba-fc899308680c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beego_proj/controllers/HelloController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/controllers/object.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/controllers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/goapi.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/lastupdate.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/models/object.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/routers/commentsRouter_controllers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/routers/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/oauth2-redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goapi/tests/default_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beego_proj/go_build_awesomeProject_beego_proj.exe" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/go_build_awesomeProject_beego_proj.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beego_proj/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beego_proj/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/routers/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
