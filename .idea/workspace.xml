@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f687f-bd3b-42a8-93ba-fc899308680c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/goapi/conf/app.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/controllers/object.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/controllers/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/goapi.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/lastupdate.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/models/object.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/models/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/routers/commentsRouter_controllers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/routers/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/oauth2-redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui-bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui-bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger-ui.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/swagger/swagger.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goapi/tests/default_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beego_proj/models/Models.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beego_proj/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beego_proj/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/controllers/default.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beego_proj/go_build_awesomeProject_beego_proj.exe" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/go_build_awesomeProject_beego_proj.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beego_proj/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,22 +173,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584856851835" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584873936377">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585313531272">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584873936377" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584873936377">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585313531272" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585313531271">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584873936377" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584873936377">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585313531271" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585313531271">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584873936377" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584873936377">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585313531271" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585313531271">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584873936377" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585313531271" />
     <state x="2381" y="162" key="SettingsEditor" timestamp="1584855596330">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
