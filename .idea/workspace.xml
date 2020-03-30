@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9f687f-bd3b-42a8-93ba-fc899308680c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beego_proj/models/Models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beego_proj/utils/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beego_proj/views/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beego_proj/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/conf/app.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beego_proj/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/controllers/default.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beego_proj/go_build_awesomeProject_beego_proj.exe" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/go_build_awesomeProject_beego_proj.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beego_proj/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beego_proj/models/Models.go" beforeDir="false" afterPath="$PROJECT_DIR$/beego_proj/models/Models.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -136,6 +138,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
